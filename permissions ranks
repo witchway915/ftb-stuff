@@ -1,0 +1,296 @@
+groups:
+  Default:
+    prefix: §6[Fresh Meat]§f
+    default: true
+    permissions:
+    - -mytown.cmd.setspawn
+    - -mytown.cmd.spawn
+    - -mytown.cmd.perm.set.mobsoff.*
+    - -mytown.cmd.perm.set.out.deny
+    - -mytown.cmd.perm.set.fireballoff.*
+    - -mytown.cmd.perm.set.tntoff.*
+    - -mytown.cmd.perm.set.creeperoff.*
+    - -mytown.cmd.perm.set.town.deny
+    - -mytown.cmd.perm.set.nation.deny
+    - -mytown.cmd.perm.set.friend.deny
+    - -mytown.cmd.nationnew
+    - -mytown.chat.*
+    - -herochat.admin*
+    - -herochat.remove.Admin
+    - -herochat.remove.Trade
+    - -herochat.remove.Global
+    - -herochat.remove.HelpChat
+    - -herochat.join.Admin
+    - -herochat.leave.Trade
+    - -herochat.leave.Global
+    - -herochat.leave.HelpChat
+    - -herochat.leave.Local
+    - ee.lutsu.alpha.mc.mytown.commands.*
+    - mytown.resident.blocksmulti.0
+    - FTBHelper.ban.25272.0
+    - FTBHelper.ban.3124.1
+    - FTBHelper.ban.10886.62
+    - FTBHelper.ban.10886.76
+    - FTBHelper.ban.10886.59
+    - FTBHelper.ban.25330.0
+    - FTBHelper.ban.23420.0
+    - FTBHelper.ban.23421.0
+    - FTBHelper.ban.23422.0
+    - essentials.help
+    - tppitweaks.command.commandtppi
+    - am2.commands.configureamuicommand
+    - essentials.afk
+    - mytown.ecmd.online
+    - essentials.list
+    - com.schlarp.mineticket.mineticketcommand
+    - FTBHelper.banneditems
+    - FTBHelper.Rules
+    - essentials.mail
+    - essentials.helpop
+    - essentials.rules
+    - essentials.mail.send
+    - essentials.ping
+    - herochat.create
+    - herochat.mute
+    - herochat.me
+    - herochat.pm
+    - herochat.emote.all
+    - herochat.join.all
+    - herochat.leave.all
+    - herochat.remove.all
+    - herochat.color.all
+    - herochat.info.all
+    - herochat.focus.all
+    - herochat.force.join.Trade
+    - herochat.force.join.Global
+    - herochat.force.join.Local
+    - herochat.force.join.HelpChat
+    - herochat.autojoin.Trade
+    - herochat.autojoin.HelpChat
+    - herochat.autojoin.Global
+    - herochat.autojoin.Local
+    - herochat.speak.Global
+    - herochat.speak.HelpChat
+    options:
+      rank: '1000'
+    worlds:
+      world:
+        default: true
+  TreePuncher:
+    prefix: §6[Tree Puncher]§f
+    inheritance:
+    - Default
+    permissions:
+    - ee.lutsu.alpha.mc.mytown.commands.*
+    - mytown.cmd
+    - mytown.cmd.*
+    - mytown.cmd.new.*
+    - mytown.cmd.claim.*
+    - mytown.resident.blocksmulti.2
+    - FTBHelper.ban.25272.0
+    - FTBHelper.ban.3124.1
+    - FTBHelper.ban.10886.62
+    - FTBHelper.ban.10886.76
+    - FTBHelper.ban.10886.59
+    - FTBHelper.ban.25330.0
+    - FTBHelper.ban.23420.0
+    - FTBHelper.ban.23421.0
+    - FTBHelper.ban.23422.0
+    - essentials.tell
+    - essentials.help
+    - essentials.r
+    - essentials.msg
+    - essentials.sethome
+    - essentials.home
+    - tppitweaks.command.commandtppi
+    - am2.commands.configureamuicommand
+    - essentials.afk
+    - mytown.ecmd.online
+    - essentials.list
+    - mytown.cmd.nationinfo
+    - mytown.cmd.nationlist
+    - mytown.cmd.nationaccept
+    - mytown.cmd.nationdeny
+    - mytown.cmd.nationleave
+    - com.schlarp.mineticket.mineticketcommand
+    - mytown.commands.CmdEmote
+    - essentials.me
+    - FTBHelper.banneditems
+    - FTBHelper.Rules
+    - essentials.mail
+    - essentials.helpop
+    - essentials.rules
+    - essentials.mail.send
+    - essentials.ping
+    - herochat.create
+    - herochat.mute
+    - herochat.me
+    - herochat.pm
+    - herochat.emote.all
+    - herochat.join.all
+    - herochat.leave.all
+    - herochat.remove.all
+    - herochat.color.all
+    - herochat.info.all
+    - herochat.focus.all
+    - herochat.force.join.Trade
+    - herochat.force.join.Global
+    - herochat.force.join.Local
+    - herochat.force.join.HelpChat
+    - herochat.autojoin.Trade
+    - herochat.autojoin.HelpChat
+    - herochat.autojoin.Global
+    - herochat.autojoin.Local
+    - herochat.speak.all
+    options:
+      rank: '950'
+    worlds:
+      world: {}
+  ZombieKiller:
+    prefix: §b[Zombie Killer]§f
+    inheritance:
+    - TreePuncher
+    permissions:
+    - mytown.chat.allowcaps
+    - mytown.resident.blocksmulti.3
+    - mytown.cmd.nationnew
+    - nation*
+    - mytown.cmd.nationkick
+    - mytown.cmd.nationtransfer
+    - mytown.cmd.nationdelete
+    - mytown.cmd.nationinvite
+    options:
+      rank: '800'
+    worlds:
+      world: {}
+  VoidWalker:
+    prefix: §b[Void Walker]§f
+    inheritance:
+    - ZombieKiller
+    permissions:
+    - mytown.chat.allowcaps
+    - mytown.resident.blocksmulti.4
+    - mytown.cmd.nationnew
+    - nation*
+    - mytown.cmd.nationkick
+    - mytown.cmd.nationtransfer
+    - mytown.cmd.nationdelete
+    - mytown.cmd.nationinvite
+    options:
+      rank: '700'
+    worlds:
+      world: {}
+  PortalExpert:
+    prefix: §b[Portal Expert]§f
+    inheritance:
+    - VoidWalker
+    permissions:
+    - mytown.chat.allowcaps
+    - mytown.resident.blocksmulti.5
+    - mytown.cmd.nationnew
+    - nation*
+    - mytown.cmd.nationkick
+    - mytown.cmd.nationtransfer
+    - mytown.cmd.nationdelete
+    - mytown.cmd.nationinvite
+    options:
+      rank: '600'
+    worlds:
+      world: {}
+  Farlander:
+    prefix: §b[Farlander]§f
+    inheritance:
+    - PortalExpert
+    permissions:
+    - -FTBHelper.ban.25330.0
+    - -FTBHelper.ban.23420.0
+    - -FTBHelper.ban.23421.0
+    - -FTBHelper.ban.23422.0
+    - mytown.chat.allowcaps
+    - mytown.resident.blocksmulti.6
+    - mytown.cmd.nationnew
+    - nation*
+    - mytown.cmd.nationkick
+    - mytown.cmd.nationtransfer
+    - mytown.cmd.nationdelete
+    - mytown.cmd.nationinvite
+    options:
+      rank: '500'
+    worlds:
+      world: {}
+  Moderators:
+    prefix: §1[Moderator]§f
+    inheritance:
+    - Members
+    permissions:
+    - mytown.resident.blocksmulti.6
+    - permissions.*
+    - ee.lutsu.alpha.mc.aperf.commands.*
+    - aperf.*
+    - essentials.kick
+    - essentials.mute
+    - essentials.gc
+    - mcp.mobius.opis.commands.*
+    - essentials.broadcast
+      rank: '30'
+    worlds:
+      world: {}
+  Senior Moderators:
+    prefix: §1[Moderator]§f
+    inheritance:
+    - Moderators
+    permissions:
+    - mytown.resident.blocksmulti.6
+    - permissions.*
+    - mytown.adm.cmd.*
+    - ee.lutsu.alpha.mc.aperf.commands.*
+    - aperf.*
+    - essentials.kick
+    - essentials.mute
+    - essentials.gc
+    - mcp.mobius.opis.commands.*
+    - essentials.tp
+    - com.xcompwiz.mystcraft.command.*
+    - essentials.broadcast
+    - essentials.tp.others
+    - essentials.vanish.see
+    - essentials.vanish.effect
+    - essentials.vanish
+    - mytown.adm.*
+    - sr.restart
+    - herochat.admin.*
+    - herochat.force.join.Admin
+    - simplebackup.use
+    - cofh.command.commandhandler
+    - essentials.kittycannon
+    - essentials.lightning
+    - essentials.lightning.others
+    - essentials.burn
+    - essentials.ext
+    - essentials.sudo
+    - essentials.socialspy
+    options:
+      rank: '25'
+    worlds:
+      world: {}
+  Admins:
+    prefix: §4[Admin]§f
+    inheritance:
+    - Senior Moderators
+    permissions:
+    - mbr.*
+    - permissions.*
+    - mytown.adm.cmd.*
+    - ee.lutsu.alpha.mc.aperf.commands.*
+    - aperf.*
+    - '*'
+    - cofh.command.commandhandler
+    - sr.restart
+    - herochat.admin.*
+    - herochat.force.join.Admin
+    - vault.admin
+    - simplebackup.use
+    options:
+      rank: '1'
+    worlds:
+      world: {}
